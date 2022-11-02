@@ -38,6 +38,7 @@ public class Employee {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
     @Override
     public String toString() {
         return String.format("%s. Номер отдела: %d; Зарпалата: %.2f; ID: %d", name, division, salary, id);
