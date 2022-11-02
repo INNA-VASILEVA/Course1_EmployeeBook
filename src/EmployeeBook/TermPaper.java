@@ -21,7 +21,7 @@ public class TermPaper {
         System.out.println("Сотрудник с наибольшей зарплатой: " + findMaxSalary(employees));
         System.out.println("Средняя зарплата сотрудников: " + countAverageSalary(employees));
         printNames();
-        System.out.println("________________________________________________________________");
+        System.out.println("_______________________________________________________________");
 
 
         indexationSalary(15, employees);
