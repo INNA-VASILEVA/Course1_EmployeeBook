@@ -27,7 +27,6 @@ public class TermPaper {
         indexationSalary(15, employees);
         printEmployees();
         int divisionRequired = 3;
-        double divPercentage = 25;
         System.out.println("Сотрудник с минимальной зарплатой в отделе: " + divisionRequired + ": " + findMinSalary(filterByDivision(divisionRequired)));
         System.out.println("Сотрудник с мксимальной зарплатой в отделе: " + divisionRequired + ": " + findMaxSalary(filterByDivision(divisionRequired)));
         System.out.println("Сумма зарплат в отделе: " + divisionRequired + ": " + countAllSalaries(filterByDivision(divisionRequired)));
